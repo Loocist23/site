@@ -20,9 +20,10 @@ div.border{
     display: grid;
     align-items: center;
     justify-content: center;
-    border: 2px solid green;
-    width: 62%;
-    margin: auto;
+    height: auto;
+    width: 100%;
+    border: 2px solid green;   
+    
 }
 div.border:hover{
     background-color: darkturquoise;
@@ -39,7 +40,7 @@ div.nav_bar{
     top: 0;
     left: 0px;
     width: 100%;
-    overflow: hidden;
+    overflow: visible;
     background-color: grey;
     opacity: 0.7;
     
