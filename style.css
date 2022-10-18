@@ -1,0 +1,81 @@
+/* Works on Firefox */
+* {
+    scrollbar-width: large;
+    scrollbar-color: blue orange;
+}
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+    color: orange;
+}
+*::-webkit-scrollbar-track {
+    background: orange;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+    border: 3px solid orange;
+}
+div.border{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+    width: 62%;
+    margin: auto;
+}
+div.border:hover{
+    background-color: darkturquoise;
+}
+div.no_border{
+    border: solid;
+}
+div.no_border .p{
+    color: blue;
+}
+div.nav_bar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color: grey;
+    opacity: 0.7;
+    
+}
+a.but_nav{
+    float: left;
+    display: block;
+    color: #f2ffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: double;
+}
+a.but_nav_current{
+    background-color: red;
+    float: left;
+    display: block;
+    color: #f2ffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: double;
+}
+kbd {
+    color: red;;
+}
+kbd:hover{
+    color: blue;
+    font-size: 2em;
+}
+.test {
+    color: aqua;
+    font-size: 1em;
+}
+.test:hover{
+    color: red;
+    font-size: 2em;
+}
+p{
+    color: magenta;
+}
