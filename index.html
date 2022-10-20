@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Test div center</title>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementsByClassName("nav_bar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
 </head>
 <body>
     <div class="nav_bar">
@@ -29,6 +43,10 @@
         </ul>
     </div>
 
+
+    <div class="right_fixed">
+        <img src="Bizzard.webp" alt="" height="150px" width="90px">
+    </div>
 <ul>
     <li></li>
     <li></li>
@@ -375,6 +393,7 @@
     <li></li>
     <li></li>
     <li></li>
+
     <li></li>
     <li></li>
     <li></li>

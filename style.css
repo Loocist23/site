@@ -17,12 +17,14 @@
     border: 3px solid orange;
 }
 div.border{
+    background-color: #333;
+    margin-top: 70px;
     display: grid;
     align-items: center;
     justify-content: center;
-    height: auto;
+    height: 100ew;
     width: 100%;
-    border: 2px solid green;   
+    border: 2ew solid green;   
     
 }
 div.border:hover{
@@ -34,24 +36,31 @@ div.no_border{
 div.no_border .p{
     color: blue;
 }
-div.nav_bar{
-    display: flex;
+.nav_bar{
+    background-color: #333;
     position: fixed;
     top: 0;
-    left: 0px;
+    left: 0;
     width: 100%;
-    overflow: visible;
-    background-color: grey;
-    opacity: 0.7;
-    
+    display: block;
+}
+div.right_fixed{
+    background-color: orange;
+    position: fixed;
+    right: 25px;
 }
 a.but_nav{
     float: left;
     display: block;
-    color: #f2ffff;
+    color: #f2f2f2;
     text-align: center;
-    padding: 14px;
-    text-decoration: double;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+a.but_nav:hover{
+    background-color: #ddd;
+    color: black;
 }
 a.but_nav_current{
     background-color: red;
@@ -59,8 +68,7 @@ a.but_nav_current{
     display: block;
     color: #f2ffff;
     text-align: center;
-    padding: 14px;
-    text-decoration: double;
+    padding: 16px;
 }
 kbd {
     color: red;;
